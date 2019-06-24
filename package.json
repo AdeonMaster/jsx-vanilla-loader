@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "AdeonMaster"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jsx-vanilla": ">=2.0.5"
+  },
+  "deprecated": false,
+  "description": "JSX Vanilla loader for Webpack",
+  "keywords": [
+    "html",
+    "js",
+    "preprocessor",
+    "jsx",
+    "loader",
+    "webpack"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "jsx-vanilla-loader",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeonMaster/jsx-vanilla-loader.git"
+  },
+}
