@@ -12,7 +12,7 @@ module.exports = {
 	devtool : 'source-map',
 	entry: {
 		main: "./src/main.js"
-	}, 
+	},
 	output: {
 		path: path.resolve(__dirname, '../js'),
 		filename: "[name].js"
@@ -20,12 +20,12 @@ module.exports = {
 	module : {
     rules : [
 		{
-        test : /\.js?/,
+        test : /\.js$/,
         include : path.resolve(__dirname, "src"),
         loader : 'jsx-vanilla-loader'
       }
     ]
   }
 }
-	
+
 ```
