@@ -1,10 +1,10 @@
-# JSX Vanilla loader
+# Description
 
 JSX Vanilla loader for webpack
 
 # Examples of webpack.config.js
 
-```
+```js
 const path = require('path');
 
 module.exports = {

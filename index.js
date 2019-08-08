@@ -1,7 +1,7 @@
 'use strict';
 
-const JSXVanilla = require('jsx-vanilla');
+const { preprocess } = require('jsx-vanilla');
 	
-module.exports = (source) => {
-	return JSXVanilla.preprocess(source);
+module.exports = function(source) {
+	return preprocess(source);
 };
