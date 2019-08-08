@@ -2,7 +2,7 @@
 
 JSX Vanilla loader for webpack
 
-# Examples of webpack.config.js
+# Example of webpack.config.js
 
 ```js
 const path = require('path');
